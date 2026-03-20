@@ -1,149 +1,77 @@
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notion | Genwise</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="tag">Notion Implementation for Accounting Firms</div>
 
-/* HERO */
-.hero {
-  padding: 120px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-}
+        <h1>
+          Bring structure to how your firm operates.
+          <span>Built for clarity. Designed to scale.</span>
+        </h1>
 
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 60px;
-  align-items: center;
-}
+        <p>
+          Genwise helps accounting firms design and implement Notion so SOPs,
+          workflows, dashboards, and internal operations are clear, connected,
+          and built to support growth.
+        </p>
 
-.tag {
-  display: inline-block;
-  border: 1px solid rgba(23,145,255,0.3);
-  background: rgba(23,145,255,0.1);
-  color: #5fedfd;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 14px;
-  margin-bottom: 20px;
-}
+        <div class="hero-buttons">
+          <a href="#" class="btn-primary">Schedule a Consultation</a>
+          <a href="#" class="btn-secondary">See What Notion Can Build</a>
+        </div>
+      </div>
 
-.hero h1 {
-  font-size: 48px;
-  line-height: 1.2;
-}
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-header">
+            <div>
+              <p class="small-text">Operations Workspace</p>
+              <h3>Firm OS in Notion</h3>
+            </div>
+            <div class="badge">Live structure</div>
+          </div>
 
-.hero h1 span {
-  color: #5fedfd;
-  display: block;
-}
+          <div class="card-grid">
+            <div class="mini-card">SOP Library</div>
+            <div class="mini-card">Client Workflows</div>
+            <div class="mini-card">Internal Dashboard</div>
+            <div class="mini-card">Training Hub</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-.hero p {
-  margin-top: 20px;
-  color: rgba(255,255,255,0.7);
-  font-size: 18px;
-  max-width: 500px;
-}
+  <section class="comparison">
+    <div class="container comparison-grid">
+      <div class="box">
+        <p class="section-label">What firms use today</p>
+        <div class="list">
+          <div>Scattered SOPs and disconnected documents</div>
+          <div>Manual trackers and inconsistent follow-up</div>
+          <div>Knowledge trapped across people and tools</div>
+          <div>No single system for internal operations</div>
+        </div>
+      </div>
 
-.hero-buttons {
-  margin-top: 30px;
-  display: flex;
-  gap: 15px;
-}
-
-.btn-primary {
-  background: #2d4ce8;
-  padding: 14px 22px;
-  border-radius: 12px;
-  text-decoration: none;
-  color: white;
-}
-
-.btn-secondary {
-  border: 1px solid rgba(255,255,255,0.2);
-  padding: 14px 22px;
-  border-radius: 12px;
-  text-decoration: none;
-  color: white;
-}
-
-/* CARD */
-.card {
-  background: #232325;
-  border: 1px solid rgba(255,255,255,0.1);
-  padding: 20px;
-  border-radius: 20px;
-}
-
-.card-inner {
-  background: #18181a;
-  padding: 20px;
-  border-radius: 16px;
-}
-
-.card-header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-.small-text {
-  color: rgba(255,255,255,0.5);
-  font-size: 14px;
-}
-
-.badge {
-  background: rgba(23,145,255,0.15);
-  color: #5fedfd;
-  padding: 5px 10px;
-  border-radius: 8px;
-}
-
-.card-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-}
-
-.mini-card {
-  background: rgba(23,145,255,0.1);
-  border: 1px solid rgba(23,145,255,0.2);
-  padding: 12px;
-  border-radius: 10px;
-}
-
-/* COMPARISON */
-.comparison {
-  padding: 80px 0;
-}
-
-.comparison-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-}
-
-.box {
-  background: rgba(255,255,255,0.02);
-  border: 1px solid rgba(255,255,255,0.1);
-  padding: 30px;
-  border-radius: 20px;
-}
-
-.highlight {
-  background: rgba(23,145,255,0.08);
-  border: 1px solid rgba(23,145,255,0.2);
-}
-
-.section-label {
-  color: #5fedfd;
-  font-size: 12px;
-  margin-bottom: 20px;
-}
-
-.list div {
-  background: rgba(0,0,0,0.3);
-  padding: 14px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
+      <div class="box highlight">
+        <p class="section-label">What Notion enables</p>
+        <div class="list">
+          <div>Structured knowledge system</div>
+          <div>Connected databases and workflows</div>
+          <div>Shared dashboards and visibility</div>
+          <div>A unified workspace built for scale</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
