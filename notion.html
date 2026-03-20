@@ -1,77 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Notion | Genwise</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genwise Notion</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #18181a;
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+
+    h1 {
+      font-size: 52px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #cfcfcf;
+      line-height: 1.6;
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 30px;
+      background: #2d4ce8;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #232325;
+      padding: 24px;
+      border-radius: 14px;
+    }
+
+    .section {
+      border-top: 1px solid #2a2a2a;
+    }
+
+    .table {
+      width: 100%;
+      margin-top: 30px;
+      border-collapse: collapse;
+    }
+
+    .table td {
+      border-bottom: 1px solid #2a2a2a;
+      padding: 14px;
+    }
+
+    .highlight {
+      color: #5fedfd;
+    }
+  </style>
 </head>
+
 <body>
-  <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <div class="tag">Notion Implementation for Accounting Firms</div>
 
-        <h1>
-          Bring structure to how your firm operates.
-          <span>Built for clarity. Designed to scale.</span>
-        </h1>
+  <!-- HERO -->
+  <div class="container">
+    <h1>Bring Structure to How Your Firm Operates</h1>
+    <p>One system for SOPs, workflows, and internal operations.</p>
+    <p>Genwise helps accounting firms design and implement Notion so processes are clear, work is structured, and teams stay aligned.</p>
+    <a href="#" class="cta">Talk to Genwise About Your Setup</a>
+  </div>
 
-        <p>
-          Genwise helps accounting firms design and implement Notion so SOPs,
-          workflows, dashboards, and internal operations are clear, connected,
-          and built to support growth.
-        </p>
+  <!-- COMPARISON -->
+  <div class="container section">
+    <h2>Where Firms Struggle Today</h2>
+    <table class="table">
+      <tr>
+        <td>Scattered SOPs</td>
+        <td class="highlight">Structured knowledge system</td>
+      </tr>
+      <tr>
+        <td>Excel trackers</td>
+        <td class="highlight">Connected databases</td>
+      </tr>
+      <tr>
+        <td>Manual follow-ups</td>
+        <td class="highlight">Standardized workflows</td>
+      </tr>
+      <tr>
+        <td>Disconnected tools</td>
+        <td class="highlight">One unified workspace</td>
+      </tr>
+    </table>
+  </div>
 
-        <div class="hero-buttons">
-          <a href="#" class="btn-primary">Schedule a Consultation</a>
-          <a href="#" class="btn-secondary">See What Notion Can Build</a>
-        </div>
-      </div>
+  <!-- FEATURES -->
+  <div class="container section">
+    <h2>Built to Run Your Firm</h2>
 
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-header">
-            <div>
-              <p class="small-text">Operations Workspace</p>
-              <h3>Firm OS in Notion</h3>
-            </div>
-            <div class="badge">Live structure</div>
-          </div>
-
-          <div class="card-grid">
-            <div class="mini-card">SOP Library</div>
-            <div class="mini-card">Client Workflows</div>
-            <div class="mini-card">Internal Dashboard</div>
-            <div class="mini-card">Training Hub</div>
-          </div>
-        </div>
-      </div>
+    <div class="grid">
+      <div class="card"><h3>Databases</h3><p>SOP libraries, workflows, task tracking, internal systems</p></div>
+      <div class="card"><h3>Dashboards</h3><p>Workload visibility, engagement status, KPIs</p></div>
+      <div class="card"><h3>Knowledge Base</h3><p>Processes, policies, documentation, playbooks</p></div>
+      <div class="card"><h3>Templates</h3><p>Repeatable workflows and standardized processes</p></div>
+      <div class="card"><h3>Training Systems</h3><p>Onboarding, role-based training, internal learning</p></div>
+      <div class="card"><h3>Collaboration</h3><p>Comments, shared docs, connected workflows</p></div>
     </div>
-  </section>
+  </div>
 
-  <section class="comparison">
-    <div class="container comparison-grid">
-      <div class="box">
-        <p class="section-label">What firms use today</p>
-        <div class="list">
-          <div>Scattered SOPs and disconnected documents</div>
-          <div>Manual trackers and inconsistent follow-up</div>
-          <div>Knowledge trapped across people and tools</div>
-          <div>No single system for internal operations</div>
-        </div>
-      </div>
+  <!-- AI -->
+  <div class="container section">
+    <h2>Work Faster with Built-In AI</h2>
 
-      <div class="box highlight">
-        <p class="section-label">What Notion enables</p>
-        <div class="list">
-          <div>Structured knowledge system</div>
-          <div>Connected databases and workflows</div>
-          <div>Shared dashboards and visibility</div>
-          <div>A unified workspace built for scale</div>
-        </div>
-      </div>
+    <div class="grid">
+      <div class="card"><h3>AI Inside Workspace</h3><p>Write SOPs and generate content instantly</p></div>
+      <div class="card"><h3>Meetings to Action</h3><p>Auto summaries and next steps</p></div>
+      <div class="card"><h3>Find Anything Instantly</h3><p>Search across your workspace</p></div>
+      <div class="card"><h3>Automate Work</h3><p>AI handles repetitive tasks</p></div>
     </div>
-  </section>
+  </div>
+
+  <!-- USE CASES -->
+  <div class="container section">
+    <h2>How Accounting Firms Use Notion</h2>
+
+    <div class="grid">
+      <div class="card"><h3>SOP Library</h3><p>Document workflows and processes</p></div>
+      <div class="card"><h3>Tax Workflow Management</h3><p>Track returns and documents</p></div>
+      <div class="card"><h3>Onboarding System</h3><p>Train new hires effectively</p></div>
+      <div class="card"><h3>Knowledge Base</h3><p>Store policies and best practices</p></div>
+      <div class="card"><h3>Firm Dashboards</h3><p>Visibility into workload and deadlines</p></div>
+    </div>
+  </div>
+
+  <!-- FAILURES -->
+  <div class="container section">
+    <h2>Why Most Notion Setups Fail</h2>
+
+    <div class="grid">
+      <div class="card"><h3>Too Much Complexity</h3><p>Workspaces become cluttered</p></div>
+      <div class="card"><h3>No Standard Structure</h3><p>Processes are inconsistent</p></div>
+      <div class="card"><h3>Low Team Adoption</h3><p>Teams stop using it</p></div>
+      <div class="card"><h3>No Clear System</h3><p>Doesn’t support workflows</p></div>
+    </div>
+  </div>
+
+  <!-- TRANSFORMATION -->
+  <div class="container section">
+    <h2>What Changes After Implementation</h2>
+
+    <div class="card">
+      <p><strong>Step 1:</strong> Visibility improves</p>
+      <p><strong>Step 2:</strong> Workflows become consistent</p>
+      <p><strong>Step 3:</strong> Collaboration improves</p>
+      <p><strong>Step 4:</strong> Less manual work</p>
+      <p><strong>Step 5:</strong> Easier to run your firm</p>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="container section">
+    <h2>Build a System Your Firm Can Rely On</h2>
+    <p>Genwise helps you turn Notion into a system your team actually uses.</p>
+    <a href="#" class="cta">Talk to Genwise About Your Setup</a>
+  </div>
+
 </body>
 </html>
